@@ -35,10 +35,15 @@ theme:
   favicon: template_assets/webex75.png
 extra:
   generator: false
+  repo: "https://github.com/kevsimps/wx1_25.git"
+  site_event: test
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - template_assets/js/newLoad.js
 plugins:
   - search
+  - macros
   # - with-pdf:
   #     cover_title: LABXXX-1234
   #     cover_subtitle: My famous WebexOne Lab
@@ -82,3 +87,8 @@ nav:
       - Lab 1 - Getting Started: lab1_getting_started.md
       - Conclusion: conclusion.md
   - Topologies: topologies.md
+  - How to use this guide:
+      - Initial Setup: howToUse/initialSetup.md
+      - Using the tool after the initial setup: howToUse/postInitial.md
+      - Publishing your changes: howToUse/syncChanges.md
+ 
